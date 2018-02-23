@@ -1,0 +1,20 @@
+<h1 class="center">Your Cart</h1>
+<div class="row">
+  <% @apps.each do |app| %>
+    <div class="col s12 m4">
+      <div class="card grey lighten1">
+        <div class="card-content white-text">
+          <span class="card-title"><%= app.title %></span>
+          <p><%= app.description %></p>
+        </div>
+        <div class="card-action">
+          <a class="btn black" href="/apps/<%= app.id %>/edit">Edit</a>
+          <form action="/apps/<%= app.id %>" method="POST">
+            <input type="hidden" name="_method" value="DELETE">
+            <button class="btn pink">Delete</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  <% end %>
+</div>

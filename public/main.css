@@ -1,0 +1,15 @@
+.nav-wrapper {
+  background-color: rgb(252, 95, 205);
+  height: 100px;
+  
+}
+
+.brand-logo { 
+  display: flex; 
+  
+}
+
+.nav-mobile{
+  display:flex;
+
+}

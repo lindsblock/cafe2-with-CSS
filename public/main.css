@@ -22,20 +22,30 @@
 }
 
 /* this is the home page*/
+.background {
+  background-image: url("images/amsterdam.jpg");
+  background-size: 100%;
+  background-repeat:no-repeat;
+}
 .center{
   display:flex;
   justify-content: center;
   font-family: 'Courgette', cursive;
+  margin:auto;
+
 }
 
-.order{
-  background-color: rgb(190, 190, 190);
+.order_container{
+  width:400px;
+  background-color:hsla(0,0%,50.2%,0.8);
   display: flex;
   align-items:center;
-  flex-direction: column;
-  border: 2px solid black;
-  padding: 5px;
-  margin: 40px;
+  justify-content: center;
+  flex-direction:column;
+  border: 1px solid black;
+  margin:auto;
+  padding:60px;
+  font-family: 'Courgette', cursive;
 }
 
 .btn{
@@ -48,4 +58,12 @@
   font-size: 20px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  background-color: #ffa3f0;
+  height: 50px;
 }

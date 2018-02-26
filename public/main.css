@@ -1,6 +1,6 @@
 
 .nav-wrapper {
-  background-color: rgb(248, 165, 230);
+  background-color: #ffa3f0;
   display:flex;
   justify-content: space-between;
   align-items: center;
@@ -18,7 +18,7 @@
   display:flex;
   flex-direction: column;
   border: 2px solid black;
-  padding:5px
+  padding: 10px;
 }
 
 /* this is the home page*/
@@ -29,6 +29,23 @@
 }
 
 .order{
+  background-color: rgb(190, 190, 190);
   display: flex;
-  justify-content: center;
+  align-items:center;
+  flex-direction: column;
+  border: 2px solid black;
+  padding: 5px;
+  margin: 40px;
+}
+
+.btn{
+  background: #ffa3f0;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
 }
